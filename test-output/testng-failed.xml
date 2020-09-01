@@ -3,12 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.testcases.Signinpagetest">
+      <class name="Com.testcases.BCTlogins">
         <methods>
+          <include name="mohempl"/>
+          <include name="foreign"/>
+          <include name="moh"/>
+          <include name="mohhod"/>
+          <include name="sign"/>
           <include name="SetUp"/>
-          <include name="signpage"/>
         </methods>
-      </class> <!-- Com.testcases.Signinpagetest -->
+      </class> <!-- Com.testcases.BCTlogins -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
